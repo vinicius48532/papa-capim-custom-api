@@ -24,6 +24,9 @@
 		"papacapim"
 	],
 	"license": "MIT",
+	"dependencies": {
+		"fastify": "^5.12.7"
+	},
 	"devDependencies": {
 		"@biomejs/biome": "2.6.4",
 		"@types/node": "^26.6.6",
