@@ -1,21 +1,21 @@
 {
-  "extends": "./tsconfig.base.json",
-  "compilerOptions": {
-    "allowJs": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "module": "esnext",
-    "moduleDetection": "force",
-    "moduleResolution": "bundler",
-    "noEmit": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "paths": {
-      "@*": ["./src/*"]
-    },
-    "resolveJsonModule": true,
-    "types": ["node"],
-    "verbatimModuleSyntax": true
-  },
-  "include": ["src/**/*.ts"]
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"module": "esnext",
+		"moduleDetection": "force",
+		"moduleResolution": "bundler",
+		"noEmit": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"paths": {
+			"@*": ["./src/*"]
+		},
+		"resolveJsonModule": true,
+		"types": ["node"],
+		"verbatimModuleSyntax": true
+	},
+	"include": ["src/**/*.ts"]
 }

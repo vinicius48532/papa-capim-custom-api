@@ -1,38 +1,38 @@
 {
-  "name": "papa-capim-custom-api",
-  "version": "0.0.0",
-  "description": "Reimplementação em Node.js da API RESTful Papa Capim, um projeto de microblogging inspirado no X, mantendo os recursos originais com um novo contrato.",
-  "type": "module",
-  "scripts": {
-    "build": "tsdown",
-    "start:dev": "tsx watch src/main.ts",
-    "start:prod": "node dist/main.mjs",
-    "format": "biome format --write",
+	"name": "papa-capim-custom-api",
+	"version": "0.0.0",
+	"description": "Reimplementação em Node.js da API RESTful Papa Capim, um projeto de microblogging inspirado no X, mantendo os recursos originais com um novo contrato.",
+	"type": "module",
+	"scripts": {
+		"build": "tsdown",
+		"start:dev": "tsx watch src/main.ts",
+		"start:prod": "node dist/main.mjs",
+		"format": "biome format --write",
 		"lint": "biome lint --write",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": {
-    "name": "Vinícius Amorim S. Rozario"
-  },
-  "keywords": [
-    "nodejs",
-    "api",
-    "restful",
-    "tdd",
-    "social-network",
-    "microblogging",
-    "papacapim"
-  ],
-  "license": "MIT",
-  "devDependencies": {
-    "@biomejs/biome": "2.6.4",
-    "@types/node": "^26.6.6",
-    "tsdown": "^0.23.4",
-    "tsx": "^4.23.15",
-    "typescript": "^7.0.2"
-  },
-  "allowScripts": {
-    "esbuild@0.28.2": true
-  },
-  "private": true
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": {
+		"name": "Vinícius Amorim S. Rozario"
+	},
+	"keywords": [
+		"nodejs",
+		"api",
+		"restful",
+		"tdd",
+		"social-network",
+		"microblogging",
+		"papacapim"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "2.6.4",
+		"@types/node": "^26.6.6",
+		"tsdown": "^0.23.4",
+		"tsx": "^4.23.15",
+		"typescript": "^7.0.2"
+	},
+	"allowScripts": {
+		"esbuild@0.28.2": true
+	},
+	"private": true
 }
