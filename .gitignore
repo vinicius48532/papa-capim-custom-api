@@ -7,4 +7,5 @@ build
 
 # IDEs
 .vscode/*
+!.vscode/extensions.json
 !.vscode/settings.json
