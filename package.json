@@ -4,6 +4,7 @@
   "description": "Reimplementação em Node.js da API RESTful Papa Capim, um projeto de microblogging inspirado no X, mantendo os recursos originais com um novo contrato.",
   "type": "module",
   "scripts": {
+    "start:dev": "tsx watch src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
@@ -19,5 +20,13 @@
     "papacapim"
   ],
   "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  },
   "private": true
 }
